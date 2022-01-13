@@ -126,13 +126,14 @@ main {
     font-size: 36px; /* Services h2 font size*/
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+/* Footer Elements*/
+footer {
+    padding: 30px; /* Footer padding */
+    clear: both; /* Footer clear previous */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Footer fonts */
+    text-align: center; /* Footer text alligment */
 }
 
-.footer h2 {
-    font-size: 20px;
+footer h2 {
+    font-size: 20px; /* Footer h2 font size */
 }
