@@ -1,53 +1,54 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /* Universal box sizing */
+    padding: 0; /* Universal padding */
+    margin: 0; /* Universal margin */
 }
-
+ 
 body {
-    background-color: #d9dcd6;
-}
-
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+    background-color: #d9dcd6; /* Body background colour */
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /* Attribute text colour */
+    text-decoration: none; /* Attribute text decoration */
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /* Paragraph font size */
+}
+
+/* Header Elements */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Header Fonts */
+    background-color: #2a607c; /* Header Background Colour */
+    color: #ffffff; /* Header Text Colour */
+}
+
+header h1 {
+    display: inline-block; /* Header h1 display */
+    font-size: 48px; /* Header h1 font size */
+}
+
+header h1 .seo {
+    color: #d9dcd6; /* Header h1 .seo colour [Hori(SEO)on] - colour for SEO text */
+}
+
+header nav {
+    padding-top: 15px; /* Nav padding */
+    margin-right: 20px; /* Nav margin */
+    float: right; /* Nav float */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Nav fonts */
+    font-size: 20px; /* Nav font size */
+}
+
+header nav ul {
+    list-style-type: none; /* List style type */
+}
+
+header nav ul li {
+    display: inline-block; /* List display */
+    margin-left: 25px; /* List margin */
 }
 
 .hero {
