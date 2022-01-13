@@ -72,10 +72,11 @@ header nav ul li {
     margin-left: 25px; /* Float margin */
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Main */
+main {
+    width: 75%; /* Main width */
+    display: inline-block; /* Main display */
+    margin-left: 20px; /* Main margin */
 }
 
 .benefits {
@@ -155,40 +156,23 @@ header nav ul li {
     color: #ffffff;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* Services Elements*/
+.services {
+    margin-bottom: 20px; /* Services margin */
+    padding: 50px; /* Services padding */
+    height: 300px; /* Services height */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Services fonts */
+    background-color: #0072bb; /* Services background colour */
+    color: #ffffff; /* Services text colour */
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
+.services img {
+    max-height: 200px; /* Services img max height*/
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.services h2 {
+    margin-bottom: 20px; /* Services h2 margin*/
+    font-size: 36px; /* Services h2 font size*/
 }
 
 .footer {
