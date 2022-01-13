@@ -51,23 +51,25 @@ header nav ul li {
     margin-left: 25px; /* List margin */
 }
 
+/* Hero Full Screen Image*/
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /* Image height */
+    width: 100%; /* Image width */
+    margin-bottom: 25px; /* Image margin */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Image source */
+    background-size: cover; /* Background size */
+    background-position: center; /* Background position */
 }
 
+/* Floats */
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* Float left */
+    margin-right: 25px; /* Float margin */
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /* Float right */
+    margin-left: 25px; /* Float margin */
 }
 
 .content {
